@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vchat</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'styles/Main.css' %}">
+</head>
+<body>
+    <h1><img id="mainlogo" src="{% static 'images/Mainn-icon.png' %}"> Vchat</h1>
+    {% block content %}
+
+    {% endblock content %}
+</body>
+</html>
